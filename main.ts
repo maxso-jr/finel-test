@@ -17,7 +17,7 @@ basic.forever(function () {
     for (let obstacle2 of obstacle) {
         obstacle2.change(LedSpriteProperty.X, -1)
     }
-    if (ticks % 1 == 0) {
+    if (ticks % 3 == 0) {
         empty0bstacley = randint(0, 4)
         for (let index = 0; index <= 4; index++) {
             if (index != empty0bstacley) {
